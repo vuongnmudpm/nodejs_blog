@@ -4,7 +4,7 @@ class SiteController {
     res.render('home');
   }
 
-  //get /news/:slug
+  //get/news/:slug
   search(req, res) {
     res.render('search');
   }
