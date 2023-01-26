@@ -1,3 +1,1 @@
-function connect() {
-    
-}
+function connect() {}
