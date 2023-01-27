@@ -1,6 +1,5 @@
 class CourseController {
-    show (req, res) {
-
-        res.send('Course Detail');
-    }
+  show(req, res) {
+    res.send('Course Detail');
+  }
 }
