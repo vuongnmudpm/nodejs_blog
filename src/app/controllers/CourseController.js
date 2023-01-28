@@ -19,9 +19,14 @@ class CourseController {
 
   //[POST] Create
   store(req, res, next) {
-    const course = new Course(req.body);
-    course.save();
-    res.send('Save');
+    const formData = req.body;
+    formData.image = `https://i.ytimg.com/vi/${req.body.videoId}/hq720.jpg`;     
+    const course = new Course(formData);
+    course.save()
+    .then(() => res.redirect('/'))
+    .catch(error => {
+
+    });
   }
 
   //[POST] Update
