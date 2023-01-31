@@ -4,8 +4,8 @@ class SiteController {
   //get
   home(req, res, next) {
     Course.find({})
-      .then(courses => {
-        courses = courses.map(course => course.toObject())
+      .then((courses) => {
+        courses = courses.map((course) => course.toObject());
         res.render('home', { courses });
       })
       .catch(next);

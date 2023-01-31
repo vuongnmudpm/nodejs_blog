@@ -6,3 +6,12 @@ form {
 
 .video-item {
   border-radius: 10px; }
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px; }
+
+.course-detail-video {
+  border-radius: 20px; }
