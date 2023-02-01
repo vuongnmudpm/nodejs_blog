@@ -15,3 +15,7 @@ form {
 
 .course-detail-video {
   border-radius: 20px; }
+
+.checkbox-select-all-options {
+  width: 160px;
+  margin: 0 16px; }

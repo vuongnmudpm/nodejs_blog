@@ -26,7 +26,7 @@ class CourseController {
     course
       .save()
       .then(() => res.redirect('/'))
-      .catch((error) => { });
+      .catch((error) => {});
   }
 
   edit(req, res, next) {
